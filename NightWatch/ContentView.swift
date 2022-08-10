@@ -44,6 +44,9 @@ struct ContentView: View {
                         Text("Focus Mode")
                     }).toggleStyle(.button)
                 })
+                ToolbarItem(placement: .navigationBarTrailing, content: {
+                    EditButton()
+                })
             }
         }
     }
