@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F3EBC972899D5270076EBE6 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EBC962899D5270076EBE6 /* DetailsView.swift */; };
+		1F3EBC992899D7C80076EBE6 /* TaskGroupListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EBC982899D7C80076EBE6 /* TaskGroupListView.swift */; };
+		1F3EBC9B2899D9810076EBE6 /* TaskSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EBC9A2899D9810076EBE6 /* TaskSectionHeader.swift */; };
 		1F58BAB0288FEDA400D7BBE6 /* NightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58BAAF288FEDA400D7BBE6 /* NightWatchApp.swift */; };
 		1F58BAB2288FEDA400D7BBE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58BAB1288FEDA400D7BBE6 /* ContentView.swift */; };
 		1F58BAB4288FEDA600D7BBE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F58BAB3288FEDA600D7BBE6 /* Assets.xcassets */; };
 		1F58BAB7288FEDA600D7BBE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F58BAB6288FEDA600D7BBE6 /* Preview Assets.xcassets */; };
+		1F90CDB9289EFDFA00A14664 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90CDB8289EFDFA00A14664 /* Task.swift */; };
+		1F90CDBB28A03E3900A14664 /* NightWatchTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F90CDBA28A03E3900A14664 /* NightWatchTasks.swift */; };
+		1FFE6E8928A2F20900C80394 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE6E8828A2F20900C80394 /* TaskRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F3EBC962899D5270076EBE6 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		1F3EBC982899D7C80076EBE6 /* TaskGroupListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupListView.swift; sourceTree = "<group>"; };
+		1F3EBC9A2899D9810076EBE6 /* TaskSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSectionHeader.swift; sourceTree = "<group>"; };
 		1F58BAAC288FEDA400D7BBE6 /* NightWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F58BAAF288FEDA400D7BBE6 /* NightWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchApp.swift; sourceTree = "<group>"; };
 		1F58BAB1288FEDA400D7BBE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F58BAB3288FEDA600D7BBE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F58BAB6288FEDA600D7BBE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F90CDB8289EFDFA00A14664 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		1F90CDBA28A03E3900A14664 /* NightWatchTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTasks.swift; sourceTree = "<group>"; };
+		1FFE6E8828A2F20900C80394 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +67,12 @@
 				1F58BAB1288FEDA400D7BBE6 /* ContentView.swift */,
 				1F58BAB3288FEDA600D7BBE6 /* Assets.xcassets */,
 				1F58BAB5288FEDA600D7BBE6 /* Preview Content */,
+				1F3EBC962899D5270076EBE6 /* DetailsView.swift */,
+				1F3EBC982899D7C80076EBE6 /* TaskGroupListView.swift */,
+				1F3EBC9A2899D9810076EBE6 /* TaskSectionHeader.swift */,
+				1F90CDB8289EFDFA00A14664 /* Task.swift */,
+				1F90CDBA28A03E3900A14664 /* NightWatchTasks.swift */,
+				1FFE6E8828A2F20900C80394 /* TaskRow.swift */,
 			);
 			path = NightWatch;
 			sourceTree = "<group>";
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F58BAB2288FEDA400D7BBE6 /* ContentView.swift in Sources */,
+				1F3EBC9B2899D9810076EBE6 /* TaskSectionHeader.swift in Sources */,
+				1F3EBC992899D7C80076EBE6 /* TaskGroupListView.swift in Sources */,
+				1FFE6E8928A2F20900C80394 /* TaskRow.swift in Sources */,
 				1F58BAB0288FEDA400D7BBE6 /* NightWatchApp.swift in Sources */,
+				1F90CDB9289EFDFA00A14664 /* Task.swift in Sources */,
+				1F90CDBB28A03E3900A14664 /* NightWatchTasks.swift in Sources */,
+				1F3EBC972899D5270076EBE6 /* DetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.NightWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doniseferi.nightwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -309,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.NightWatch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doniseferi.nightwatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
