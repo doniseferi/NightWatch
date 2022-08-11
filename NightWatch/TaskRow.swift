@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TaskRow: View {
     @Binding var task: Task
-
+    
     var body: some View {
         HStack {
             Button(
