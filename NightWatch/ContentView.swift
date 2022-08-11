@@ -9,6 +9,7 @@ import SwiftUI
 struct ContentView: View {
     @ObservedObject var nightWatchTasks: NightWatchTasks
     @State private var focusMode = false;
+    @State private var reset = false;
     
     
     var body: some View {
@@ -44,11 +45,30 @@ struct ContentView: View {
                         Text("Focus Mode")
                     }).toggleStyle(.button)
                 })
-                ToolbarItem(placement: .navigationBarTrailing, content: {
+                ToolbarItem(placement: .navigationBarLeading, content: {
                     EditButton()
+                })
+                ToolbarItem(placement: .navigationBarLeading, content: {
+                    Button(action: {reset = true}, label: {
+                        Text("Reset")
+                    })
                 })
             }
         }
+        .alert(Text("Are you sure?"),
+               isPresented: $reset,
+               actions: {
+            
+            Button(role: .destructive) {
+                let resetTasks = NightWatchTasks()
+                self.nightWatchTasks.nightly = resetTasks.nightly
+                self.nightWatchTasks.weekly = resetTasks.weekly
+                self.nightWatchTasks.monthly = resetTasks.monthly
+            } label: {
+                Text("Yes")
+            }
+        })
+        
     }
 }
 

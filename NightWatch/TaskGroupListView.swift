@@ -24,16 +24,6 @@ struct TaskGroupListView: View {
                     label: {
                         TaskRow(task: $task)
                     })
-//                    .swipeActions(edge: .trailing) {
-//                        Button(
-//                            role: .destructive,
-//                            action: {
-//                                task.isComplete = true
-//                            },
-//                            label: {
-//                                Label("Delete", systemImage: "trash")
-//                            })
-//                    }
             }).onDelete { indexSet in
                 tasks.remove(atOffsets: indexSet)
             }.onMove { indices, newOffset in
