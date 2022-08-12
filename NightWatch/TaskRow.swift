@@ -4,7 +4,6 @@
 //
 //  Created by Edonis Seferi on 09/08/2022.
 //
-
 import SwiftUI
 
 struct TaskRow: View {
