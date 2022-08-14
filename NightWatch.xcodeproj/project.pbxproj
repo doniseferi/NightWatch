@@ -31,6 +31,7 @@
 		1F90CDB8289EFDFA00A14664 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		1F90CDBA28A03E3900A14664 /* NightWatchTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTasks.swift; sourceTree = "<group>"; };
 		1F968D8928A902B5008A9C11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1F968D8A28A92136008A9C11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1FFE6E8828A2F20900C80394 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +66,7 @@
 		1F58BAAE288FEDA400D7BBE6 /* NightWatch */ = {
 			isa = PBXGroup;
 			children = (
+				1F968D8A28A92136008A9C11 /* Info.plist */,
 				1F58BAAF288FEDA400D7BBE6 /* NightWatchApp.swift */,
 				1F58BAB1288FEDA400D7BBE6 /* ContentView.swift */,
 				1F58BAB3288FEDA600D7BBE6 /* Assets.xcassets */,
@@ -296,6 +298,7 @@
 				DEVELOPMENT_TEAM = V5TK8TTS7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NightWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +328,7 @@
 				DEVELOPMENT_TEAM = V5TK8TTS7Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NightWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

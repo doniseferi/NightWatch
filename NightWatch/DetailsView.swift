@@ -13,6 +13,7 @@ struct DetailsView: View {
 
     var body: some View {
         VStack {
+            Image("FloorPlan").resizable()
             Text(task.name )
             
             Text("Placeholder details 1")
@@ -41,7 +42,7 @@ struct DetailsView_Previews: PreviewProvider {
         Group {
             
         DetailsView(task: Binding<Task>.constant(Task(name: "Close all doors", isComplete: false, lastCompleted: nil)))
-            .previewInterfaceOrientation(.portrait)
+                .previewInterfaceOrientation(.portrait)
         
         
             DetailsView(task: Binding<Task>.constant(Task(name: "Close all doors", isComplete: false, lastCompleted: nil)))

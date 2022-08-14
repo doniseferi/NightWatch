@@ -19,7 +19,7 @@ struct TaskSectionHeader: View {
             Text(header.uppercased())
                 .fontWeight(.semibold)
                 .font(.title3)
-                .foregroundColor(.primary)
+                .foregroundColor(.accentColor)
         }
     }
 }
