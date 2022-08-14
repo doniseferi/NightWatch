@@ -30,6 +30,7 @@
 		1F58BAB6288FEDA600D7BBE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F90CDB8289EFDFA00A14664 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		1F90CDBA28A03E3900A14664 /* NightWatchTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTasks.swift; sourceTree = "<group>"; };
+		1F968D8928A902B5008A9C11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1FFE6E8828A2F20900C80394 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +48,7 @@
 		1F58BAA3288FEDA400D7BBE6 = {
 			isa = PBXGroup;
 			children = (
+				1F968D8928A902B5008A9C11 /* README.md */,
 				1F58BAAE288FEDA400D7BBE6 /* NightWatch */,
 				1F58BAAD288FEDA400D7BBE6 /* Products */,
 			);
